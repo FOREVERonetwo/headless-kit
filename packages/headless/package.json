@@ -6,7 +6,7 @@
     "vue",
     "vue3",
     "headless",
-    "headlessui",
+    "headless-vue",
     "accessible",
     "a11y",
     "aria",
@@ -18,14 +18,14 @@
     "combobox"
   ],
   "license": "MIT",
-  "author": "headless-kit contributors",
+  "author": "FOREVERonetwo contributors",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/headless-kit/headless-kit.git",
+    "url": "git+https://github.com/FOREVERonetwo/headless-kit.git",
     "directory": "packages/headless"
   },
   "bugs": {
-    "url": "https://github.com/headless-kit/headless-kit/issues"
+    "url": "https://github.com/FOREVERonetwo/headless-kit/issues"
   },
   "homepage": "https://headless-kit.dev",
   "type": "module",

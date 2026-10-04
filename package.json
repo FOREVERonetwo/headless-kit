@@ -5,14 +5,14 @@
   "description": "Unstyled, accessible Vue 3 primitives for building design systems.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/headless-kit/headless-kit.git"
+    "url": "git+https://github.com/FOREVERonetwo/headless-kit.git"
   },
   "bugs": {
-    "url": "https://github.com/headless-kit/headless-kit/issues"
+    "url": "https://github.com/FOREVERonetwo/headless-kit/issues"
   },
   "homepage": "https://headless-kit.dev",
   "license": "MIT",
-  "author": "headless-kit contributors",
+  "author": "FOREVERonetwo contributors",
   "keywords": [
     "vue",
     "vue3",

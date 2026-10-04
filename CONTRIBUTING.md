@@ -8,7 +8,7 @@ described in [README.md](./README.md) and per-primitive docs.
 Requires Node 18.18+ (20 recommended) and npm 9+.
 
 ```bash
-git clone https://github.com/headless-kit/headless-kit.git
+git clone https://github.com/FOREVERonetwo/headless-kit.git
 cd headless-kit
 npm install
 npm run check

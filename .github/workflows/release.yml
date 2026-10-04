@@ -40,5 +40,5 @@ jobs:
         with:
           generate_release_notes: true
           body: |
-            See [CHANGELOG.md](https://github.com/headless-kit/headless-kit/blob/main/CHANGELOG.md)
+            See [CHANGELOG.md](https://github.com/FOREVERonetwo/headless-kit/blob/main/CHANGELOG.md)
             for the full list of changes.

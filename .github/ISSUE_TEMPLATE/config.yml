@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
-    url: https://github.com/headless-kit/headless-kit/security/advisories/new
+    url: https://github.com/FOREVERonetwo/headless-kit/security/advisories/new
     about: Please report security issues privately instead of opening a public issue.
   - name: Question or usage help
-    url: https://github.com/headless-kit/headless-kit/discussions
+    url: https://github.com/FOREVERonetwo/headless-kit/discussions
     about: Ask usage questions in Discussions.
   - name: Contributing guide
-    url: https://github.com/headless-kit/headless-kit/blob/main/CONTRIBUTING.md
+    url: https://github.com/FOREVERonetwo/headless-kit/blob/main/CONTRIBUTING.md
     about: Conventions, test requirements and the review checklist.

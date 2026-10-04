@@ -17,7 +17,7 @@ rather than patched.
 Use GitHub's private reporting so the details stay confidential until a fix is released:
 
 1. Go to **Security** → **Advisories** → **Report a vulnerability** on
-   <https://github.com/headless-kit/headless-kit/security/advisories/new>.
+   <https://github.com/FOREVERonetwo/headless-kit/security/advisories/new>.
 2. Describe the issue, the affected version, and a reproduction if you have one.
 3. You will get an acknowledgement within 72 hours and a status update at least every seven days
    until the report is resolved.

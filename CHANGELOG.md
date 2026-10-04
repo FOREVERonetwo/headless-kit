@@ -66,8 +66,8 @@ include breaking changes in minor releases; each one is called out in the entry.
 - Initial release: `Disclosure`, `Accordion`, `Switch`.
 - `useControllableState`, `createContext`, `useId`, `mergeRefs`, `useEventListener`.
 
-[Unreleased]: https://github.com/headless-kit/headless-kit/compare/v0.4.0...HEAD
-[0.4.0]: https://github.com/headless-kit/headless-kit/compare/v0.3.0...v0.4.0
-[0.3.0]: https://github.com/headless-kit/headless-kit/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/headless-kit/headless-kit/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/headless-kit/headless-kit/releases/tag/v0.1.0
+[Unreleased]: https://github.com/FOREVERonetwo/headless-kit/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/FOREVERonetwo/headless-kit/compare/v0.3.0...v0.4.0
+[0.3.0]: https://github.com/FOREVERonetwo/headless-kit/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/FOREVERonetwo/headless-kit/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/FOREVERonetwo/headless-kit/releases/tag/v0.1.0
