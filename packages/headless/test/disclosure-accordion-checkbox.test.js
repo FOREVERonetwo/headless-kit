@@ -254,7 +254,9 @@ describe('Switch integration', () => {
       components: { SwitchThumb },
       template: '<SwitchThumb v-slot="{ attrs }"><span v-bind="attrs" /></SwitchThumb>',
     })
-    expect(() => mount(Orphan, { global: { config: { errorHandler: () => {} } } })).toThrow(/SwitchThumb/)
+    expect(() => mount(Orphan, { global: { config: { errorHandler: () => {} } } })).toThrow(
+      /SwitchThumb/,
+    )
   })
 
   it('throws when SwitchRoot is used outside a provider consumer', () => {
