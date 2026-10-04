@@ -1,0 +1,60 @@
+{
+  "name": "headless-kit",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Unstyled, accessible Vue 3 primitives for building design systems.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headless-kit/headless-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/headless-kit/headless-kit/issues"
+  },
+  "homepage": "https://headless-kit.dev",
+  "license": "MIT",
+  "author": "headless-kit contributors",
+  "keywords": [
+    "vue",
+    "vue3",
+    "headless",
+    "accessible",
+    "a11y",
+    "design-system",
+    "unstyled",
+    "components",
+    "open source"
+  ],
+  "type": "module",
+  "packageManager": "npm@10.8.1",
+  "engines": {
+    "node": ">=18.18.0",
+    "npm": ">=9.0.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @headless-kit/docs",
+    "build": "npm run build --workspace @headless-kit/vue && npm run build --workspace @headless-kit/docs",
+    "preview": "npm run preview --workspace @headless-kit/docs",
+    "test": "npm run test --workspace @headless-kit/vue",
+    "test:watch": "npm run test:watch --workspace @headless-kit/vue",
+    "coverage": "npm run coverage --workspace @headless-kit/vue",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run lint && npm run format:check && npm run test && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
