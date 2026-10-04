@@ -1,0 +1,51 @@
+name: Feature request
+description: Propose a primitive, a prop or a behaviour change
+labels: ['enhancement', 'needs triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please open an issue before implementing anything substantial so we can agree on the API
+        shape. Accessibility behaviour changes should describe the WAI-ARIA pattern they follow.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation, not the solution. This is the part that matters.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this affect?
+      options:
+        - A new primitive
+        - An existing primitive
+        - A composable
+        - Documentation
+        - Tooling / DX
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API
+      description: A short code sketch of how it would be used. Optional, but it speeds things up.
+      render: vue
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Including composing the existing composables instead.
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to send a pull request for this
+        - label: I can provide a reproduction or test case

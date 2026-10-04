@@ -1,0 +1,5 @@
+* @headless-kit/maintainers
+
+packages/headless/ @headless-kit/maintainers
+apps/docs/ @headless-kit/maintainers
+.github/ @headless-kit/maintainers

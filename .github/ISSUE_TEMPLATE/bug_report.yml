@@ -1,0 +1,88 @@
+name: Bug report
+description: Something in a primitive behaves incorrectly
+labels: ['bug', 'needs triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. Please do a quick search of existing issues first — if your
+        problem was fixed in a release, `npm update` is the answer.
+
+  - type: dropdown
+    id: primitive
+    attributes:
+      label: Primitive
+      options:
+        - Disclosure
+        - Accordion
+        - Tabs
+        - Dialog
+        - Popover
+        - Select
+        - Tooltip
+        - Switch
+        - Checkbox
+        - Presence / Portal / VisuallyHidden
+        - Composables
+        - Not sure / something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Include the ARIA attributes or keyboard behaviour you expected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: |
+        A CodeSandbox / StackBlitz link is ideal. Otherwise paste the smallest template that
+        reproduces the problem, including the imports.
+      render: vue
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: headless-kit version
+      placeholder: 0.4.0
+    validations:
+      required: true
+
+  - type: input
+    id: vue-version
+    attributes:
+      label: Vue version
+      placeholder: 3.5.13
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, screen reader and version if relevant.
+      placeholder: Chrome 131 / macOS 15 / VoiceOver
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Additional context
+      options:
+        - label: This is an accessibility problem (keyboard, focus or screen reader output)
+        - label: It used to work before a release
